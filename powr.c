@@ -1,4 +1,4 @@
-/* powr.c - calculates power recursively
+/* powr.c - calculates power recursively (naive)
  * (c) Copyright 2019 Bartosz Mierzynski
  * Written in C11
  */
