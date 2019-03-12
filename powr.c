@@ -6,6 +6,11 @@
  
 typedef unsigned long long ull;
 typedef long double ld;
+
+void usage(int status) {
+	fprintf(stderr, "usage: powr X N\n");
+	exit(status);
+}
  
 ld powr(ld x, ull n)
 	return n ? x * powr(x, n-1) : 1;
