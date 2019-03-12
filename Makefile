@@ -3,10 +3,13 @@
 CC=cc
 CFLAGS=-Wall -pedantic -std=c11
 
-all: powi powr powr2 powr3
+all: powi powi2 powr powr2 powr3
 
 powi:
 	@$(CC) $(CFLAGS) powi.c -o powi
+
+powi2:
+	@$(CC) $(CFLAGS) powi2.c -o powi2
 
 powr:
 	@$(CC) $(CFLAGS) powr.c -o powr
