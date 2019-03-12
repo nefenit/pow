@@ -14,9 +14,10 @@ void usage(int status) {
 	exit(status);
 }
  
-ld powr(ld x, ull n)
+ld powr(ld x, ull n) {
 	return n ? x * powr(x, n-1) : 1;
- 
+}
+	
 int main(int argc, char **argv) {
 	if(argc != 3)
 		usage(EXIT_FAILURE);
