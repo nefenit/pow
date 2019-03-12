@@ -10,7 +10,7 @@ typedef unsigned long long ull;
 typedef long double ld;
 
 void usage(int status) {
-	fprintf(stderr, "usage: powr X N\n");
+	fprintf(stderr, "usage: powi X N\n");
 	exit(status);
 }
  
