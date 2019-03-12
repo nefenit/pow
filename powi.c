@@ -15,17 +15,17 @@ void usage(int status) {
 }
  
 ld powi(ld x, ull n) {
-	ld t = 1;
+	ld t = 1.0L;
 	if(!n)
-		return 1;
+		return 1.0L;
 	while(n--)
 		t *= x;
-	retrun t;
+	return t;
  }
  
 int main(int argc, char **argv) {
 	if(argc != 3)
 		usage(EXIT_FAILURE);
-	printf("%Lf\n", powr(strtold(argv[1], NULL), strtoull(argv[2], NULL, 10)));
+	printf("%Lf\n", powi(strtold(argv[1], NULL), strtoull(argv[2], NULL, 10)));
 	return 0;
 }
