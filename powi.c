@@ -1,4 +1,4 @@
-/* powi.c - calculates power iteratively
+/* powi.c - calculates power iteratively (naive)
  * (c) Copyright 2019 Bartosz Mierzynski
  * Written in C11
  */
