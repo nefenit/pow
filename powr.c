@@ -15,7 +15,7 @@ void usage(int status) {
 }
  
 ld powr(ld x, ull n) {
-	return n ? x * powr(x, n-1) : 1;
+	return n ? x * powr(x, n-1) : 1.0L;
 }
 	
 int main(int argc, char **argv) {
