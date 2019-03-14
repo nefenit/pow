@@ -18,7 +18,7 @@ ld powr3(ld x, ull n) {
 	ld t;
 
 	if(n) {
-		t = powr3(x, n/2);
+		t = powr3(x, n>>1);
 		if(n & 1)
 			return x * t * t;
 		else
