@@ -17,9 +17,9 @@ void usage(int status) {
 ld powr2(ld x, ull n) {
 	if(n)
 		if(n & 1)
-			return x * powr2(x, n/2) * powr2(x, n/2);
+			return x * powr2(x, n>>1) * powr2(x, n>>1);
 		else
-			return powr2(x, n/2) * powr2(x, n/2);
+			return powr2(x, n>>1) * powr2(x, n>>1);
 	return 1.0L;
 }
 	
