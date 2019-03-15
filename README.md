@@ -4,7 +4,7 @@
 Power is a function x<sup>n</sup>:&#8477;&#10799;&#8469;<sub>0</sub>&map;&#8477; which for an input pair of (x, n) outputs y equal to n products of x or 1 if n = 0
 
 ### Input
-X: {(x,n) &isin; &#8477;&#10799;&#8469;<sub>0</sub>}
+X: &#8477;&#10799;&#8469;<sub>0</sub>
 
 ### Output
 Y: &#8477;
