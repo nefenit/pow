@@ -1,7 +1,7 @@
 # pow
 
 ## Formal specification
-Power is a function x<sup>n</sup>:&#8477;&#10799;&#8469;<sub>0</sub>&map;&#8477; which a pair of (x, n) gives y equal to n multiplications of x
+Power is a function x<sup>n</sup>:&#8477;&#10799;&#8469;<sub>0</sub>&map;&#8477; which for an input pair of (x, n) outputs y equal to n multiplications of x
 
 ### Input
 X: {(x,n) &isin; &#8477;&#10799;&#8469;<sub>0</sub>}
