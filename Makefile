@@ -20,5 +20,7 @@ powr2:
 powr3:
 	@$(CC) $(CFLAGS) powr3.c -o powr3
 
+.PHONY: clean
+
 clean:
 	@rm powr powi
